@@ -43,15 +43,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MxmCbUDl0ow?si=gnqRHwxgELLbn0v-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my first milestone, I started by testing the main components of the robotic arm including the four servos and joysticks. The arm was also consisted of the Arduino Nano, Nano Shield, and acrylic parts.
+
+Once I tested the servos and joysticks to confirm they worked, I set all the servos to 90°, and then began assembling. I finished building the arm in a couple days with not too many problems, but I did run into a few challenges while assembling it. First, since the Nano shield I was using was different from the shield used in the kit, I only was able to attach one end of the shield to the base, meaning it wasn't fully secure. Some parts were also a bit tedious to assemble due things like tiny screws and tight places to screw things in.
+
+Once I finished assembling and wiring the arm, I tested it out with the Arm code, which made me realize I needed to readjust the second servo back to 90°. Otherwise, the controller did work, but the movement of servo 2 was very jittery so that is something I need to fix in the future. Additionally, the first servo used to rotate the turntable was not fully turning, so I need to adjust that as well. For my second milestone, I plan on resolving these problems and then work on adding a camera onto the arm.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
