@@ -52,7 +52,7 @@ Once I tested the servos and joysticks to confirm they worked, I set all the ser
 Once I finished assembling and wiring the arm, I tested it out with the Arm code, which made me realize I needed to readjust the second servo back to 90°. Otherwise, the controller did work, but the movement of servo 2 was very jittery so that is something I need to fix in the future. Additionally, the first servo used to rotate the turntable was not fully turning, so I need to adjust that as well. For my second milestone, I plan on resolving these problems and then work on adding a camera onto the arm.
 
 # Schematics 
-<img width="1191" height="729" alt="image" src="https://github.com/user-attachments/assets/96a1332f-0f59-480f-bbca-10799089a679" />
+![72256](https://github.com/user-attachments/assets/c1e09c01-729e-40da-959b-fbcda8ad6c62)
 
 # Code
 
