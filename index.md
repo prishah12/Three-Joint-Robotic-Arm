@@ -55,8 +55,8 @@ Once I finished assembling and wiring the arm, I tested it out with the Arm code
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
+Joystick Test Code
 ```c++
 void setup() { 
 pinMode(3, INPUT); 
@@ -77,6 +77,7 @@ delay(100);
 }
 ```
 
+Servo Test Code
 ```c++
 int servopin=10;   //Define digital interface 10 to connect servo servo signal line
 int myangle;       //Define the Angle variable 0-180
@@ -115,6 +116,7 @@ servopulse(servopin,val);          //Call the impulse function
 }
 ```
 
+Servo 90° Code
 ```c++
 #include<Servo.h>
 Servo myservo1;  // Create a servo class
@@ -139,6 +141,7 @@ void loop() {
  }
 ```
 
+Arm Control Code
 ```c++
 
 #include "src/CokoinoArm.h"
