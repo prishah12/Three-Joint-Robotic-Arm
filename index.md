@@ -52,7 +52,7 @@ Once I tested the servos and joysticks to confirm they worked, I set all the ser
 Once I finished assembling and wiring the arm, I tested it out with the Arm code, which made me realize I needed to readjust the second servo back to 90°. Otherwise, the controller did work, but the movement of servo 2 was very jittery so that is something I need to fix in the future. Additionally, the first servo used to rotate the turntable was not fully turning, so I need to adjust that as well. For my second milestone, I plan on resolving these problems and then work on adding a camera onto the arm.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<img width="1191" height="729" alt="image" src="https://github.com/user-attachments/assets/96a1332f-0f59-480f-bbca-10799089a679" />
 
 # Code
 
