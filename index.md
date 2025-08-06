@@ -44,7 +44,8 @@ For your second milestone, explain what you've worked on since your previous mil
 I managed to figure out why the turn table was not rotating. After unscrewing the arm from the base, I took out the servo and after testing it, it appeared to be working perfectly fine. The reason why it was not turning the turn table though was because the shorter side of the servo arm was not cut short enough, and therefore hung slightly over the edge, preventing it from being fully aligned and attached to the servo. To fix this, all I had to do was cut the short side a little more so that it would fit in.
 ![IMG_1665](https://github.com/user-attachments/assets/4e00e02c-33a8-445d-a5dc-1c78ef2eaa10)
 
-I also began working on my modification of adding a caemra by using a raspberry pi.
+I also began working on my modification of adding a camera by using a raspberry pi. After setting up the Pi and Camera, including installing VS Code and VNC, I began researching information regarding the object recognition progress. With assistance from a guide, I managed to install the necessary libraries to VNC where I then used a demo code which opened up the camera that then detected the objects it saw.
+![IMG_1693](https://github.com/user-attachments/assets/229d88b7-0384-49ad-949a-89ba01a543dc)
 
 # First Milestone
 
@@ -308,5 +309,13 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+
+# Resources
+[Robotic Arm Instructions](https://github.com/Cokoino/CKK0006/tree/master)
+[Raspberry Pi + Pi Cam Setup Guide](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=e62868ecde&attid=0.1&permmsgid=msg-a:r-3392424760405621202&th=198762682390f083&view=att&disp=inline&realattid=08768CE1-5557-4D9B-A3D5-BF8822A79934&zw&saddbat=ANGjdJ_6egqo-5YXatXvNiuNwza0D9c2o34GK7kXYAlOrYhEcqsnLXfTeWYcB0OaIeqUkE76V8gz9GmXx6OvWZtIGoaA6QsrBqbHmg6eqfQ4bkPch7KT4WAAWOgp5S1tdeHnKIvwDTy6vos-Oi49eLlkcJTgGDcT5vfckLcp3hl1Y4RwmNxuQjl5O2U17sDmgY_us_wYrwHIV9RSLoQsaJCI_QQZxEEBnN5o7-WLSzfI0FcAQWPZX6TeKftQIIT0XjS7w84ntIZ6gkHQ9uqn3Xot8u0YDz_3uphluBcsTgvy4W5FTad-Gqc7N5ljjcBcFaCINN7mV5O_3Pj3CaoaI1Mmd5V8SHO5p2cdYBrfa1lj2aaYrEqki8UUNAic5zsYMCD4msX6gDCXUP8HsU5l4dZ8__PhWOs4f8_8_TEpPcGrs90iutt3GDAO0myeUQOjJ6TpWQh9sMlAQxoAhXU5vq7CVswQAXsI5kTq-Efd15SLgEUezERznzeAdzwodo_TX6LY-piYzININYtlwdWJVO1zepK0PiHxr5sSOwtRm5EE8Zv7LI65_LzyCgEY9Z3qgqbQ981mF34CYxrhq0EqoAkBizaJu5R-x9tt69WNQFvA_tifo6eTXlsoctJUpHYDuKY-o_uyY6qSFkZjSlB-QZJdcwzqySFimciF9rPB_Hna9XscqPDMzlMkH-G4GZBD6GvrtRk9RFP6kZqjKe33cMR_9ll-MfEZ-v6xrevHzOo3ENO7lhLh3NEChHp_4qRP3vSNSaCQoPuwnmN91aq5-LV4zyAMFegc1j7DbGfkcM-gWihBYI4rN07z1DFFJu1EEi8GCIKTdFd64i47SOt1bCR5UmWh1pww-rqVoOQ-g6VBFSnToGnmsMv2rVQXGzWeHAZ8eGprHlequWxyL3z1vXD-kWiaclyE1bqFRg4qJbiyxunLW5WMMBUuPIuYedwcsYC9qQd8004Xyfi7gZJJ6Q1IItEmAw-IL1VcJ2DcyeVos8M4wffQTXEqVhOPaIHi5v49IRSZN6lGBgKCARcn)
+[Raspberry Pi Object Recognition Introduction](https://core-electronics.com.au/guides/raspberry-pi/getting-started-with-yolo-object-and-animal-recognition-on-the-raspberry-pi/)
+[Raspberry Pi Object Recognition Introduction (Video) (https://www.youtube.com/watch?reload=9&app=desktop&v=XKIm_R_rIeQ)
+
+
 
 To watch the BSE tutorial on how to create a portfolio, click here.
