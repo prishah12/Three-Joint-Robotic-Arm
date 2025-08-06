@@ -44,7 +44,7 @@ For your second milestone, explain what you've worked on since your previous mil
 I managed to figure out why the turn table was not rotating. After unscrewing the arm from the base, I took out the servo and after testing it, it appeared to be working perfectly fine. The reason why it was not turning the turn table though was because the shorter side of the servo arm was not cut short enough, and therefore hung slightly over the edge, preventing it from being fully aligned and attached to the servo. To fix this, all I had to do was cut the short side a little more so that it would fit in.
 ![IMG_1665](https://github.com/user-attachments/assets/4e00e02c-33a8-445d-a5dc-1c78ef2eaa10)
 
-I also began working on my modification of adding a camera by using a raspberry pi. After setting up the Pi and Camera, including installing VS Code and VNC, I began researching information regarding the object recognition progress. With assistance from a guide, I managed to install the necessary libraries to VNC where I then used a demo code which opened up the camera that then detected the objects it saw.
+I also began working on my modification of adding a camera by using a raspberry pi. After setting up the Pi and Camera, including installing VS Code and VNC, I began researching information regarding the object recognition progress. With assistance from a guide, I managed to install the necessary libraries to VNC where I then used a demo code which opened up a window for the pi camera that then detected the objects it saw. It included a label of what it believed each object was an a confidence rate.
 ![IMG_1693](https://github.com/user-attachments/assets/229d88b7-0384-49ad-949a-89ba01a543dc)
 
 # First Milestone
