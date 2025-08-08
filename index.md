@@ -31,8 +31,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dShGSw_TvkY?si=SJ3BTxmqkmSZqKv2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I managed to figure out why the turn table was not rotating. After unscrewing the arm from the base, I took out the servo and after testing it, it appeared to be working perfectly fine. The reason why it was not turning the turn table though was because the shorter side of the servo arm was not cut short enough, and therefore hung slightly over the edge, preventing it from being fully aligned and attached to the servo. To fix this, all I had to do was cut the short side a little more so that it would fit in.
