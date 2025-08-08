@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Priyanka S | Staten Island Technical High School | Electrical Engineering | Incoming Junior
+| Priyanka S | Staten Island Technical High School | Mechanical Engineering | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -35,18 +35,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dShGSw_TvkY?si=SJ3BTxmqkmSZqKv2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
-
 I managed to figure out why the turn table was not rotating. After unscrewing the arm from the base, I took out the servo and after testing it, it appeared to be working perfectly fine. The reason why it was not turning the turn table though was because the shorter side of the servo arm was not cut short enough, and therefore hung slightly over the edge, preventing it from being fully aligned and attached to the servo. To fix this, all I had to do was cut the short side a little more so that it would fit in.
 ![IMG_1665](https://github.com/user-attachments/assets/4e00e02c-33a8-445d-a5dc-1c78ef2eaa10)
 
-I also began working on my modification of adding a camera by using a raspberry pi. After setting up the Pi and Camera, including installing VS Code and VNC, I began researching information regarding the object recognition progress. With assistance from a guide, I managed to install the necessary libraries to VNC where I then used a demo code which opened up a window for the pi camera that then detected the objects it saw. It included a label of what it believed each object was an a confidence rate.
+I also began working on my modification of adding a camera by using a raspberry pi. After setting up the Pi and Camera, including installing VS Code and VNC, I began researching information regarding the object recognition progress. With assistance from a guide, I managed to install and use YOLO in VNC viewer. I then used a demo code which opened up a window for the pi camera that then detected the objects it saw. It included a label of what it believed each object was and a confidence rate.
 ![IMG_1701](https://github.com/user-attachments/assets/8efbcae0-c264-466d-b14f-e176fc90c883)
 ![IMG_1693](https://github.com/user-attachments/assets/229d88b7-0384-49ad-949a-89ba01a543dc)
+
+Next, I wanted to train the YOLO model to recognize specific objects. To do this, I needed to create a data set of images which I would then upload to Label Studio where I would label the objects. I decided to use two types of candy--twix and snickers--as the objects I wanted the camera to recognize. This process was very time consuming as this was all done in the VNC browser, which was very slow. However, once I finished I was able to download a zip file that contained the images and labels. I then started the process of organizing the files using several commands in the terminal that prevented me from having to do it manually. I ran into a few problems during this process mainly regarding files that were either not properly downloaded or named, but with assistance from my instructor I managed to overcome them.
+
+So far, the most suprising part of this project has been using the raspberry pi. I usually prefer doing more hands-on based things rather than computer based ones, but learning how to use and operate in VNC has been really interesting and different from what I've used to. At first, training the model seemed a bit intimidating and complicated because of all the steps, but now that I'm near the end, I definitely feel like I've been able to learn more about something I was completely unaware of before. Before my final milestone, I need to ensure that trained YOLO model works, and then work on the coding aspect so that the raspberry pi can control the arm using the object recognition to have it organzie the candy.
 
 # First Milestone
 
