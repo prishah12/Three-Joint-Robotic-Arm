@@ -6,9 +6,7 @@ The project I chose to create in BlueStamp was the three joint robotic arm with 
 |:--:|:--:|:--:|:--:|
 | Priyanka S | Staten Island Technical High School | Mechanical Engineering | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image]![IMG_2357 (1)](https://github.com/user-attachments/assets/36bf8508-9d81-4d30-8717-530a1f91e4f8)
+![IMG_2357 (1)](https://github.com/user-attachments/assets/36bf8508-9d81-4d30-8717-530a1f91e4f8)
 
 
 # Final Milestone
