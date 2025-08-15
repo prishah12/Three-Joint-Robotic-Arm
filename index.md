@@ -447,7 +447,8 @@ One of the best parts about Github is that you can view how other people set up 
 
 [Raspberry Pi Object Recognition Introduction](https://core-electronics.com.au/guides/raspberry-pi/getting-started-with-yolo-object-and-animal-recognition-on-the-raspberry-pi/)
 
-[Raspberry Pi Object Recognition Introduction (Video)] (https://www.youtube.com/watch?reload=9&app=desktop&v=XKIm_R_rIeQ)
+[Raspberry Pi Object Recognition Introduction (Video)](https://www.youtube.com/watch?reload=9&app=desktop&v=XKIm_R_rIeQ)
+
 [How to Train YOLO Object Recognition Models](https://www.ejtech.io/learn/train-yolo-models)
 
 
