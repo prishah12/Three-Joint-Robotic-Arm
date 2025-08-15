@@ -35,6 +35,8 @@ I finally managed to finish training the YOLO model for the candy object recogni
 
 The final step that I wanted to finish before demo night was creating the code that would allow the raspberry pi to control the robotic arm, which would then perform a specific set of movements depending on which object the camera detected. I had to create two seperate codes: one in arduino for the arm movements and then another in python in VSC for the raspberry pi. Although both codes were correct, I originally set the threshold value too high, so although the raspberry pi would send signals to the arduino, nothing would actually happen. I resolved this by running a few test codes to determine what would be the appropriate threshold value. Once I had the correct value, my project was fully functioning.
 
+![IMG_1918](https://github.com/user-attachments/assets/176bc745-ecb0-4456-95b8-1fb423eef9cf)
+
 The main key topics I learned through BlueStamp was how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using a python and arduino code. Learning how to work with the raspberry pi was very interesting and a litle frustrating at times, since it was something I have never worked with and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created. Next, I plan on trying to create an actual code that I could use to have the arm to actually pick up the candy bars. In the future, I plan to use everything I have learned at BlueStamp and apply it to projects that I may work on in the future.
 
 Final Arm Code (Controlled by Raspberry Pi)
