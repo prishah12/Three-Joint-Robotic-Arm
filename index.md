@@ -16,7 +16,7 @@ I finally managed to finish training the YOLO model for the candy object recogni
 
 ![IMG_1879](https://github.com/user-attachments/assets/6dd54e22-5919-4ab3-b394-004474e25916)
 
-The final step that I wanted to finish before demo night was creating the code that would allow the raspberry pi to control the robotic arm, which would then perform a specific set of movements depending on which object the camera detected. I had to create two seperate codes: one in arduino for the arm movements and then another in python in VSC for the raspberry pi. Although both codes were correct, I originally set the threshold value too high, so although the raspberry pi would send signals to the arduino, nothing would actually happen. I resolved this by running a few test codes to determine what would be the appropriate threshold value. Once I had the correct value, my project was fully functioning.
+The final step that I wanted to finish before demo night was creating the code that would allow the raspberry pi to control the robotic arm, which would then perform a specific set of movements depending on which object the camera detected. I had to create two seperate codes: one in arduino for the arm movements and then another in python in VS Code for the raspberry pi. Although both codes were correct, I originally set the threshold value too high, so although the raspberry pi would send signals to the arduino, nothing would actually happen. I resolved this by running a few test codes to determine what would be the appropriate threshold value. Once I had the correct value, my project was fully functioning.
 
 ![IMG_1918](https://github.com/user-attachments/assets/176bc745-ecb0-4456-95b8-1fb423eef9cf)
 
