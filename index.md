@@ -1,5 +1,7 @@
 # Three Joint Robotic Arm With Camera
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+
+The project I chose to create in BlueStamp was the three joint robotic arm with a camera modification. The robotic arm functions from four servos which are all connected to an Arduino board. The robotic arm is also connected to a raspberry pi and pi camera for object recognition. I decided to train the algorithm used for object recognition, called YOLO, so that the camera could specifically recognize what I trained it to. The main function of my project is that when the camera recognizes an object, the raspberry pi sends signals to the arduino, which would then run a code for a specific set of movements based on which object was detected.
+
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -31,7 +33,9 @@ I finally managed to finish training the YOLO model for the candy object recogni
 
 ![IMG_1879](https://github.com/user-attachments/assets/6dd54e22-5919-4ab3-b394-004474e25916)
 
-The main key topics I learned through BlueStamp was how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using a python and arduino code. Learning how to work with the raspberry pi was very interesting and a litle frustrating at times, since it was something I have never worked with and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created.
+The final step that I wanted to finish before demo night was creating the code that would allow the raspberry pi to control the robotic arm, which would then perform a specific set of movements depending on which object the camera detected. I had to create two seperate codes: one in arduino for the arm movements and then another in python in VSC for the raspberry pi. Although both codes were correct, I originally set the threshold value too high, so although the raspberry pi would send signals to the arduino, nothing would actually happen. I resolved this by running a few test codes to determine what would be the appropriate threshold value. Once I had the correct value, my project was fully functioning.
+
+The main key topics I learned through BlueStamp was how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using a python and arduino code. Learning how to work with the raspberry pi was very interesting and a litle frustrating at times, since it was something I have never worked with and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created. Next, I plan on trying to create an actual code that I could use to have the arm to actually pick up the candy bars. In the future, I plan to use everything I have learned at BlueStamp and apply it to projects that I may work on in the future.
 
 Final Arm Code (Controlled by Raspberry Pi)
 ```python
