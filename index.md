@@ -113,7 +113,7 @@ Next, I wanted to train the YOLO model to recognize specific objects. To do this
 
 So far, the most suprising part of this project has been using the raspberry pi. I usually prefer doing more hands-on based things rather than computer based ones, but learning how to use and operate in VNC has been really interesting and different from what I've used to. At first, training the model seemed a bit intimidating and complicated because of all the steps, but now that I'm near the end, I definitely feel like I've been able to learn more about something I was completely unaware of before. Before my final milestone, I need to ensure that trained YOLO model works, and then work on the coding aspect so that the raspberry pi can control the arm using the object recognition to have it organzie the candy.
 
-Object Recognition Code
+Object Recognition Code (Python)
 ```python
 import cv2
 from picamera2 import Picamera2
