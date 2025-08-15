@@ -14,7 +14,72 @@ You should comment out all portions of your portfolio that you have not complete
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
+
+Final Arm Code (Controlled by Raspberry Pi)
+```python
+#include <Servo.h>
+const int sensorPin = A0;
+const int sensor2Pin = A1;
+const int threshold = 600;
+
+Servo servo1;
+Servo servo2;
+Servo servo3;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0;  // variable to store the servo position
+
+void setup() {
+  pinMode (3, OUTPUT);
+  pinMode (5, OUTPUT);
+  pinMode (9, OUTPUT);
+  servo1.attach(3);  // attaches the servo on pin 9 to the servo object
+  servo2.attach(5);
+  servo3.attach(9);
+  Serial.begin(9600);
+}
+
+void snickers() {
+  // Movement for servo 1 in set 1
+  servo1.write(0);
+  delay(500);
+  // Movement for servo 2 in set 1
+  servo2.write(60);
+  delay(500);
+  // Add movements for other servos in set 1
+  servo3.write(0);
+  delay(500);
+}
+
+void twix() {
+  // Movement for servo 1 in set 2
+  servo1.write(180);
+  delay(500);
+  // Movement for servo 2 in set 2
+  servo2.write(1356);
+  delay(500);
+  // Add movements for other servos in set 2
+  servo3.write(180);
+  delay(500);
+}
+
+void loop() {
+  int sensorValue = analogRead(sensorPin);
+  Serial.println(sensorValue);
+  if (sensorValue >= threshold) {
+  snickers();
+  delay(2000);  // Wait before switching to the next set
+  }
+
+  sensorValue = analogRead(sensor2Pin);
+  Serial.println(sensorValue);
+  if (sensorValue >=threshold) {
+  twix();
+  delay(2000);  // Wait before repeating
+  }
+}
+```
+
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
