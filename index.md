@@ -15,6 +15,24 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](logo.svg)
 
+# Final Milestone
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE
+
+I finally managed to finish training the YOLO model for the candy object recogniton. Originally, I ran all the scripts in the raspberry pi terminal, but when I tried to run the training, it never fully finished. This was because the pi didn’t have the resources to finish training and to more specifically create the weights folder. Therefore I had to repeat the whole process on my laptop by installing and using Anaconda and rerunning the commands in there. To speed up the process, I emailed the images and label files I already created to myself in the pi browser, so I could then just download them to my laptop. I managed to finish this process relatively quickly since I was now already familiar with it, and when I ran the training it was fully completed after about an hour. I now had all the necessary files to continue. I then emailed the weights folder to myself which I then could open in the pi browser and download there. I then ran the last command to open the camera which successfully identified the two candy bars. This was definitely my biggest challenge so when the camera detected the twix and snickers bar I was really proud of how I persevered until it finally worked.
+
+![IMG_1879](https://github.com/user-attachments/assets/6dd54e22-5919-4ab3-b394-004474e25916)
+
+The main key topics I learned through BlueStamp was how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using a python and arduino code. Learning how to work with the raspberry pi was very interesting and a litle frustrating at times, since it was something I have never worked with and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created.
+
 Final Arm Code (Controlled by Raspberry Pi)
 ```python
 #include <Servo.h>
@@ -79,24 +97,6 @@ void loop() {
   }
 }
 ```
-
-# Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-I finally managed to finish training the YOLO model for the candy object recogniton. Originally, I ran all the scripts in the raspberry pi terminal, but when I tried to run the training, it never fully finished. This was because the pi didn’t have the resources to finish training and to more specifically create the weights folder. Therefore I had to repeat the whole process on my laptop by installing and using Anaconda and rerunning the commands in there. To speed up the process, I emailed the images and label files I already created to myself in the pi browser, so I could then just download them to my laptop. I managed to finish this process relatively quickly since I was now already familiar with it, and when I ran the training it was fully completed after about an hour. I now had all the necessary files to continue. I then emailed the weights folder to myself which I then could open in the pi browser and download there. I then ran the last command to open the camera which successfully identified the two candy bars. This was definitely my biggest challenge so when the camera detected the twix and snickers bar I was really proud of how I persevered until it finally worked.
-
-![IMG_1879](https://github.com/user-attachments/assets/6dd54e22-5919-4ab3-b394-004474e25916)
-
-The main key topics I learned through BlueStamp was how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using a python and arduino code. Learning how to work with the raspberry pi was very interesting and a litle frustrating at times, since it was something I have never worked with and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created.
 
 # Second Milestone
 
