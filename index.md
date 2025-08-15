@@ -2,20 +2,14 @@
 
 The project I chose to create in BlueStamp was the three joint robotic arm with a camera modification. The robotic arm functions from four servos which are all connected to an Arduino board. The robotic arm is also connected to a raspberry pi and pi camera for object recognition. I decided to train the algorithm used for object recognition, called YOLO, so that the camera could specifically recognize what I trained it to. The main function of my project is that when the camera recognizes an object, the raspberry pi sends signals to the arduino, which would then run a code for a specific set of movements based on which object was detected.
 
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Priyanka S | Staten Island Technical High School | Mechanical Engineering | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image]![IMG_2357 (1)](https://github.com/user-attachments/assets/36bf8508-9d81-4d30-8717-530a1f91e4f8)
+
 
 # Final Milestone
 
@@ -416,8 +410,6 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -433,13 +425,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Raspberry Pi Camera Module | What the item is used for | $10 | <a href="https://www.amazon.com/gp/product/B0BLZ98RW1/ref=sw_img_1?smid=A8GZTQ9P9SC8J&psc=1"> Link </a> |
 | Portable Charger | What the item is used for | $10 | <a href="amazon.com/dp/B072K24KDR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1"> Link </a> |
 
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
 # Resources
 [Robotic Arm Instructions](https://github.com/Cokoino/CKK0006/tree/master)
 
@@ -451,6 +436,3 @@ One of the best parts about Github is that you can view how other people set up 
 
 [How to Train YOLO Object Recognition Models](https://www.ejtech.io/learn/train-yolo-models)
 
-
-
-To watch the BSE tutorial on how to create a portfolio, click here.
