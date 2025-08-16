@@ -4,7 +4,7 @@ The project I chose to create in BlueStamp was the three joint robotic arm with 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Priyanka S | Staten Island Technical High School | Mechanical Engineering | Incoming Junior
+| Priyanka S. | Staten Island Technical High School | Mechanical Engineering | Incoming Junior
 
 ![IMG_2357 (1)](https://github.com/user-attachments/assets/20707ab5-b202-4427-89c3-f8856b0b49c4)
 
