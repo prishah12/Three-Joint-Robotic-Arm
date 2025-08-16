@@ -20,7 +20,7 @@ The final step that I wanted to finish before demo night was creating the code t
 
 ![IMG_1918](https://github.com/user-attachments/assets/176bc745-ecb0-4456-95b8-1fb423eef9cf)
 
-The main key topics I learned through BlueStamp were how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using python and arduino code. Learning how to work with the raspberry pi was very interesting and a little frustrating at times, since it was something I have never worked with before, and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created. Next, I plan on trying to create a code that I could use to have the arm actually pick up the candy bars. In the future, I plan to use everything I have learned at BlueStamp and apply it to future projects.
+The main key topics I learned through BlueStamp were how to use and operate a rapsberry pi for object recognition and how I could use the raspberry pi to control the robotic arm by using python and arduino code. Learning how to work with the raspberry pi was very interesting and a little frustrating at times, since it was something I have never worked with before, and training the YOLO model took the longest amount of time. However, when everything came together, I felt proud of what I created. Next, I plan on trying to modify my code so that the arm can actually pick up the candy bars. I also plan to use everything I have learned at BlueStamp and apply it to future projects.
 
 Final Arm Code (Controlled by Raspberry Pi)
 ```c++
