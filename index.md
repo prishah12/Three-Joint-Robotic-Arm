@@ -1,4 +1,4 @@
-\# Three Joint Robotic Arm With Camera
+# Three Joint Robotic Arm With Camera
 
 The project I chose to create in BlueStamp was the three joint robotic arm with a camera modification. The robotic arm functions from four servos which are all connected to an Arduino board. The robotic arm is also connected to a raspberry pi and pi camera for object recognition. I decided to train the algorithm used for object recognition, called YOLO, so that the camera could specifically recognize what I trained it to. The main function of my project is that when the camera recognizes an object, the raspberry pi sends signals to the arduino, which would then run a code for a specific set of movements based on which object was detected.
 
