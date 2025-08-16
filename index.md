@@ -1,4 +1,4 @@
-# Three Joint Robotic Arm With Camera
+\# Three Joint Robotic Arm With Camera
 
 The project I chose to create in BlueStamp was the three joint robotic arm with a camera modification. The robotic arm functions from four servos which are all connected to an Arduino board. The robotic arm is also connected to a raspberry pi and pi camera for object recognition. I decided to train the algorithm used for object recognition, called YOLO, so that the camera could specifically recognize what I trained it to. The main function of my project is that when the camera recognizes an object, the raspberry pi sends signals to the arduino, which would then run a code for a specific set of movements based on which object was detected.
 
@@ -412,7 +412,7 @@ void loop() {
 | 9V Batteries | Used to power the arduino | $12.37 | <a href="https://www.amazon.com/dp/B00MH4QM1S/ref=vp_d_pb_TIER4_cml_lp_B0BJ26CHZB_pd?_encoding=UTF8&pf_rd_p=b8d9960f-63a9-4d69-a8de-de9514a27e41&pf_rd_r=1RRARBM9YNNHR89D8B2N&pd_rd_wg=FwKYY&pd_rd_i=B00MH4QM1S&pd_rd_w=XrNnI&content-id=amzn1.sym.b8d9960f-63a9-4d69-a8de-de9514a27e41&pd_rd_r=edb0610d-b8f5-4671-814f-f6cb22938f22&th=1"> Link </a> |
 | Raspberry Pi Starter Kit | Contains raspberry pi, pi camera, SD card to operate the Pi, wall plug for a power source, USBC wire to connect to laptop, flashdrive to put SD card in | $100 | <a href="https://www.amazon.com/RasTech-Raspberry-Starter-Heatsink-Screwdriver/dp/B0C8LV6VNZ/ref=sr_1_4?crid=3506HY00MCGVM&dib=eyJ2IjoiMSJ9._zkM62vSQ8p7tNr88715LdMv_qHh72Je-tkF9PXEa3chDE53QT4aZu4AGAb4ihE61QY4ZD55nKF6Fp2Kfs8t7AbafM_JrlJFfHo9OB4eAVGqa0EB-7aoBQHPmhKHZ2MW8ny-Kd44bMVlVxPlTWVk5YHIN5P3uKVqrE5Dcal0rKkHny-O6Xyb5ux2AOU6OwVbkag_bqBX66RQNRrgBuz-0pS43mcx93IZTQA9R8NaJJypYU2HAycp-XicTFmyU60a01Nfm9iuyo6B9yA8ppN3OQQyJ-NQ9xyNPxfTLwkqtng.yAYpU6outhQcZmOZhN9Wb6yTw7A85CNUbXZguGInZNg&dib_tag=se&keywords=raspberry%2Bpi%2Bkit&qid=1718848547&s=electronics&sprefix=rasbperry%2Bpi%2Bkit%2Celectronics%2C83&sr=1-4&th=1"> Link </a> |
 | Raspberry Pi Camera Module | Camera stand for pi cam | $10 | <a href="https://www.amazon.com/gp/product/B0BLZ98RW1/ref=sw_img_1?smid=A8GZTQ9P9SC8J&psc=1"> Link </a> |
-| Portable Charger | power source | $10 | <a href="https://www.amazon.com/dp/B072K24KDR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1"> Link </a> |
+| Portable Charger | Power source | $10 | <a href="https://www.amazon.com/dp/B072K24KDR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1"> Link </a> |
 
 # Resources
 [Robotic Arm Instructions](https://github.com/Cokoino/CKK0006/tree/master)
